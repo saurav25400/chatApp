@@ -1,0 +1,2 @@
+#This chat application is implemented using express.js ,mongodb database and mongoose  and socket.io library.
+# For starting the server,use command-nodemon server.js and for running client.html file--start the live server .. starting live server is necessary to open the client.html chat web page.   

@@ -1,0 +1,105 @@
+.chat-container{
+    min-height: 96vh;
+    height: x;
+    min-width: 80vh;
+    margin: 1rem;
+    display:flex;
+    
+}
+main .chat-area{
+    width:70%;
+}
+.typing-area{
+    border: 2px solid grey;
+    height: 59px;
+    background-color: lightgrey;
+}
+.message-area{
+    height: 77vh;
+    border: 2px solid grey;
+    background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
+}
+.input-message-area{
+    height: 10vh;
+    border: 2px solid grey;
+}
+#myform input{
+    height: 50px;
+    margin-left: 1rem;
+    /* width: 90%; */
+    width:64%;
+    margin-top: 1rem;
+}
+#myform input:focus{
+    outline:none;
+}
+#myform button{
+    height:52px;
+    width:98px;
+    background-color: rgb(0, 180, 50);
+    border-radius: 4px;
+
+}
+#total-user .users{
+    height: 55px;
+    width: 406px;
+    text-align: center;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+    background: cadetblue;
+    color:white;
+    padding-top:10px;
+}
+#total-user .dynamic{
+background-color: bisque;
+display: flex;
+}
+.img-class{
+    height: 69px;
+    width: 70px;
+    border-radius: 50%;
+}
+.message-area .user-info{
+    /* height: 94px; */
+    height:auto;
+    width: 152px;
+    background: cadetblue;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-left: 5px;
+}
+.message-area .users-message{
+    display: flex;
+    padding: 9px;
+}
+.message-area .user-info span{
+    margin-left:15px;
+}
+.message-content{
+    height:auto
+}
+.dot{
+    margin-left: 2rem;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background: green;
+}
+
+.message-containers{
+    overflow-y: scroll;
+
+}
+.set-margin{
+    margin-left:60 rem;
+}
+
+.span-element{
+    font-size: x-large;
+    margin-left: 12px;
+
+}
+
+
